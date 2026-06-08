@@ -10,7 +10,7 @@ body{
 .container{
     display:flex;
     justify-content:center;
-    width:50vh;
+    width:30vw;
     border:black 1px solid;
     border-radius:15px;
 }
@@ -24,14 +24,20 @@ body{
     padding:20px;
     text-align:left;
 }
+
+.show_form p{
+    display:flex;
+    gap:20px;
+}
+
+.show_form p span:first-child{
+    width:120px;
+    font-weight:bold;
+}
+
 button{
     margin:10px;
     padding:7px;
     border-radius:15px;
     background-color:bisque;
 }
-
-button:hover{
-
-}
-
