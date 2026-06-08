@@ -1,3 +1,32 @@
 .show_form{
     display:none;
 }
+
+body{
+    display:flex;
+    justify-content:center;
+    margin-top:10vh;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    width:50vh;
+    border:black 1px solid;
+    border-radius:15px;
+}
+
+.input_form{
+    padding:20px;
+    text-align:right;
+}
+
+.show_form{
+    padding:20px;
+    text-align:right;
+}
+button{
+    margin:10px;
+    padding:7px;
+    border-radius:15px;
+    background-color:bisque;
+}
