@@ -22,7 +22,7 @@ body{
 
 .show_form{
     padding:20px;
-    text-align:right;
+    text-align:left;
 }
 button{
     margin:10px;
@@ -30,3 +30,8 @@ button{
     border-radius:15px;
     background-color:bisque;
 }
+
+button:hover{
+
+}
+
